@@ -1,0 +1,173 @@
+
+        body { 
+          margin-left:5%;
+          margin-top:2%;
+          max-width: 90%;
+          background: #733BEB;
+          background: -moz-linear-gradient(left, #733BEB 0%, #52A3FF 50%, #E3F29B 100%);
+          background: -webkit-linear-gradient(left, #733BEB 0%, #52A3FF 50%, #E3F29B 100%);
+          background: linear-gradient(to right, #733BEB 0%, #52A3FF 50%, #E3F29B 100%);
+          -o-background-size:100% ;
+         -webkit-background-size:100% ;
+         -moz-background-size:100% ;
+          background-size:100% ;
+          font-family: 'Open Sans', sans-serif;
+            font-size: 18px;
+            font-weight: bold; 
+            letter-spacing: 0px;
+            line-height: 160%;
+            word-spacing: 0px;
+            color: #040361;
+            text-decoration: none;
+            font-style: normal;
+            font-variant: normal;
+            text-transform: none;
+            }
+
+            .firstparagraph {
+              font-weight: bolder; 
+            } 
+
+         h1 {
+            font-size: 240%; 
+            line-height: 120%;
+            color: rgb(0, 0, 0); 
+            text-align: left;
+            }
+       
+         h2 {
+            font-size: 180%; 
+            color: rgb(0, 0, 0); 
+            text-align: left;
+            }
+        h3 {
+            font-size: 200%; 
+            color: rgb(0, 0, 0); 
+            text-align: left;
+            }
+
+        img  {
+            float: right;
+            margin: 5px;
+            width: 20%;
+            margin-right: 0%;
+            margin-top: 0%;
+            } 
+
+        blockquote   {
+            font-size: 160%; 
+            max-width: 50%; 
+            background: rgb(184, 181, 181);  
+            border-left: 3px solid #60007a;
+            padding: 30px;
+            margin: 80px auto 80px auto;
+
+            } 
+        
+        #quotation {
+          font-style: italic;
+          width: 50%; 
+        } 
+
+        .villagers {
+          border-left-color: rgb(4, 0, 255);
+      }
+
+        .farmer {
+          border-left-color: rgb(218, 255, 8);
+      }
+
+
+      a:link {
+                color: rgb(224, 0, 253);
+                text-decoration: underline;
+               }
+
+      a:visited {
+                color: rgb(255, 0, 200);
+                text-decoration: none;   
+               }
+
+      a:hover {
+                color: rgb(255, 0, 0);
+                text-decoration: none;
+              }      
+
+              table.Table {
+                background-color: #98979b;
+                width: 100%;
+                text-align: left;
+                border-collapse: collapse;
+              }
+              table.Table td, table.Table th {
+                border: 1px solid #656565;
+                padding: 3px 2px;
+              }
+              table.Table tbody td {
+                font-size: 13px;
+                color: #000000;
+              }
+              table.Table tr:nth-child(even) {
+                background: #F5F5F5;
+              }
+              table.Table thead {
+                background: #909292;
+                background: -moz-linear-gradient(top, #cdd1d3 0%, #c2c8ca 66%, #BCC2C4 100%);
+                background: -webkit-linear-gradient(top, #cdd1d3 0%, #c2c8ca 66%, #BCC2C4 100%);
+                background: linear-gradient(to bottom, #cdd1d3 0%, #c2c8ca 66%, #BCC2C4 100%);
+                border-bottom: 2px solid #161616;
+              }
+              table.Table thead th {
+                font-size: 15px;
+                font-weight: bold;
+                color: #050505;
+                border-left: 2px solid #4D555B;
+              }
+              table.Table thead th:first-child {
+                border-left: none;
+              }
+              
+              table.Table tfoot td {
+                font-size: 14px;
+              }
+              table.Table tfoot .links {
+                text-align: right;
+              }
+              table.Table tfoot .links a{
+                display: inline-block;
+                background: #1C6EA4;
+                color: #FFFFFF;
+                padding: 2px 8px;
+                border-radius: 5px;
+              }
+
+              header:first-child {
+                background: rgb(231, 245, 216); 
+                border: 3px solid #60007a;
+                padding: 30px; 
+} 
+           .good,.bad {
+            text-transform: capitalize;
+          } 
+
+           .bad {
+            color: #d17a7a;
+          }
+
+          .good {
+            color: #7ed4a2;
+          }
+          .notification{
+            background:#2512d6;
+            padding:.3rem 1rem;
+            border:3px solid #61b2f3;
+            width:100px;
+            text-align: center;
+            font-weight:bold;
+            color: #330033;
+            position:fixed;
+            top: 10px;
+            right: 50px;
+          }
+       
+
